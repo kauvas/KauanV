@@ -41,9 +41,12 @@ O repositório configurado é `kauvas/KauanV`, então `vite.config.js` usa
 `base: "/KauanV/"`. Se o nome do repositório mudar, atualize esse valor também.
 
 1. Envie o projeto para a branch `main` do repositório `KauanV`.
-2. No GitHub, abra **Settings → Pages** e escolha **GitHub Actions** como fonte
-   de publicação.
-3. A cada envio para `main`, `.github/workflows/deploy.yml` instala as
-   dependências, gera `dist/` e publica o site.
+2. No GitHub, abra **Settings → Pages** e, em **Build and deployment → Source**,
+   escolha **GitHub Actions**. Essa configuração inicial é necessária: sem ela,
+   o workflow consegue compilar o site, mas o GitHub não aceita a publicação do
+   artefato.
+3. Confirme em **Actions** que os trabalhos `build` e `deploy` terminaram com
+   sucesso. A cada envio para `main`, `.github/workflows/deploy.yml` configura
+   Pages, gera `dist/` e publica o site.
 
 O endereço esperado é `https://kauvas.github.io/KauanV/`.
