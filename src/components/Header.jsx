@@ -7,7 +7,7 @@ const navigation = [
 export default function Header() {
   return (
     <header className="site-header">
-      <a className="wordmark" href="#inicio" aria-label="Ir para o início">
+      <a className="wordmark" aria-label="Ir para o início">
         <span className="wordmark-mark" aria-hidden="true">
           K.
         </span>

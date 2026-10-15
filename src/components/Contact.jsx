@@ -6,13 +6,13 @@ const contactLinks = [
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/",
-    detail: "[Adicione seu perfil]",
+    href: "https://www.linkedin.com/in/kauan-vitor-argente-dos-santos-6b18b4181",
+    detail: "https://www.linkedin.com/in/kauan-vitor-argente-dos-santos-6b18b4181",
   },
   {
     label: "E-mail",
-    href: "mailto:seu-email@exemplo.com",
-    detail: "seu-email@exemplo.com",
+    href: "mailto:kvargente@gmail.com",
+    detail: "kvargente@gmail.com",
   },
 ];
 

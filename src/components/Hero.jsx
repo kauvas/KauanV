@@ -9,11 +9,10 @@ export default function Hero() {
         <h1 id="hero-title">
           Olá, eu sou
           <br />
-          <span>[Seu nome].</span>
+          <span>Kauan Vitor.</span>
         </h1>
         <p className="hero-description">
-          Estudante de desenvolvimento web, explorando ideias e transformando-as
-          em experiências digitais simples e úteis.
+          Graduado em Análise e Desenvolvimento de Sistemas pela Uniube, em busca de oportunidades como Desenvolvedor Web Full Stack. Possuo experiência prática em projetos acadêmicos e pessoais utilizando HTML, CSS e JavaScript no Front-end e PHP/Python no Back-end, além de sólido conhecimento no padrão arquitetural MVC, funcionalidades CRUD e manipulação de bancos de dados. Inglês fluente e grande paixão por resolução de problemas e aprendizado contínuo.
         </p>
         <div className="hero-actions">
           <a className="button button-primary" href="#projetos">
@@ -35,9 +34,6 @@ export default function Hero() {
         </p>
         <span className="note-caption">EM CONSTRUÇÃO, COMO EU.</span>
       </div>
-      <span className="hero-index" aria-hidden="true">
-        01 / 04
-      </span>
     </section>
   );
 }

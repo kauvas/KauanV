@@ -20,9 +20,6 @@ export default function Projects() {
           <article className="project-card" key={project.number}>
             <div className="project-card-top">
               <span className="project-number">{project.number}</span>
-              <span className="project-arrow" aria-hidden="true">
-                ↗
-              </span>
             </div>
             <h3>{project.title}</h3>
             <p className="project-description">{project.description}</p>
@@ -40,7 +37,7 @@ export default function Projects() {
               rel="noreferrer"
               aria-label={`${project.linkLabel}: ${project.title} (abre em nova aba)`}
             >
-              {project.linkLabel} <span aria-hidden="true">↗</span>
+              {project.linkLabel}
             </a>
           </article>
         ))}
